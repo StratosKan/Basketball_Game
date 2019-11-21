@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{2e97cc52-b41c-4824-90f3-b197f02152ae}">
+        <property name="color">
+            <value>Red</value>
+        </property>
+        <property name="name">
+            <value>Stage_4_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{8ce97b58-a342-4c38-aa99-27d262591e37}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{a242ef04-4502-4f8d-888c-ec203cb33147}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{8ce97b58-a342-4c38-aa99-27d262591e37}">
+        <relationship name="effects">
+            <destination>{a20bb9d0-75fa-475c-a9a2-6191fc1b77b0}</destination>
+            <destination>{0c450b52-7efe-4cab-9684-4e9009a604b8}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{a242ef04-4502-4f8d-888c-ec203cb33147}"/>
+    <object class="MixerBusFader" id="{a20bb9d0-75fa-475c-a9a2-6191fc1b77b0}"/>
+    <object class="SFXReverbEffect" id="{0c450b52-7efe-4cab-9684-4e9009a604b8}">
+        <property name="decayTime">
+            <value>12500</value>
+        </property>
+        <property name="earlyDelay">
+            <value>40</value>
+        </property>
+        <property name="lateDelay">
+            <value>48</value>
+        </property>
+        <property name="HFReference">
+            <value>8000</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>33.5</value>
+        </property>
+        <property name="density">
+            <value>88</value>
+        </property>
+        <property name="lowShelfFrequency">
+            <value>78</value>
+        </property>
+        <property name="earlyLateMix">
+            <value>84</value>
+        </property>
+        <property name="wetLevel">
+            <value>0</value>
+        </property>
+        <property name="dryLevel">
+            <value>-19.5</value>
+        </property>
+    </object>
+</objects>

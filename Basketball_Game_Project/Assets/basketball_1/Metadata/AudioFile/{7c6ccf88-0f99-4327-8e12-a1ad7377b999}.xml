@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{7c6ccf88-0f99-4327-8e12-a1ad7377b999}">
+        <property name="assetPath">
+            <value>BALLS/Basketball_bounce_concrete_2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.44823129251700683</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c0a983ab-82a6-4870-bdf0-326ca7d875ab}</destination>
+        </relationship>
+    </object>
+</objects>

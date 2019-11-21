@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{219b2f9b-4cfd-4ed4-8311-cd8b4699d23e}">
+        <property name="assetPath">
+            <value>FOOTS/Sneakers_on_wood_4.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.19201814058956915</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c0a983ab-82a6-4870-bdf0-326ca7d875ab}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b2ced853-ad7d-42e2-b568-60ecca93acbd}">
+        <property name="assetPath">
+            <value>FOOTS/Basketball_shoe squeaks_3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.40879818594104306</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c0a983ab-82a6-4870-bdf0-326ca7d875ab}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{e7e6a2bf-fce9-4e87-b400-5f8a8b18d8fc}">
+        <property name="name">
+            <value>Stage_13_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{2c73c35f-5876-443d-85b7-9aedef14e2d4}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{d325c7e4-9022-4e1d-882a-8491cd6f6692}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{2c73c35f-5876-443d-85b7-9aedef14e2d4}">
+        <relationship name="effects">
+            <destination>{15a90693-efa0-49eb-a063-3714ac52ca08}</destination>
+            <destination>{f76f863b-0ea7-417b-a677-548ebed444de}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{d325c7e4-9022-4e1d-882a-8491cd6f6692}"/>
+    <object class="MixerBusFader" id="{15a90693-efa0-49eb-a063-3714ac52ca08}"/>
+    <object class="SFXReverbEffect" id="{f76f863b-0ea7-417b-a677-548ebed444de}">
+        <property name="decayTime">
+            <value>5500</value>
+        </property>
+        <property name="earlyDelay">
+            <value>23</value>
+        </property>
+        <property name="lateDelay">
+            <value>50</value>
+        </property>
+        <property name="HFReference">
+            <value>4000</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>17</value>
+        </property>
+        <property name="diffusion">
+            <value>33</value>
+        </property>
+        <property name="density">
+            <value>96</value>
+        </property>
+        <property name="wetLevel">
+            <value>-10.5</value>
+        </property>
+        <property name="dryLevel">
+            <value>-28</value>
+        </property>
+    </object>
+</objects>

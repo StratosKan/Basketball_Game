@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{282e7b50-2a9b-41b4-a149-d4b20cb9ca37}">
+        <property name="name">
+            <value>Stage_12_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{5f709488-a43d-4a40-91fa-4a3640692b14}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{5d9d59e7-6626-4b63-a7b7-f3cc0484ea08}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{5f709488-a43d-4a40-91fa-4a3640692b14}">
+        <relationship name="effects">
+            <destination>{286fa101-b450-463b-9abe-a60b4ed4b287}</destination>
+            <destination>{199b7f90-4911-47ab-ad79-b3277278ae07}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{5d9d59e7-6626-4b63-a7b7-f3cc0484ea08}"/>
+    <object class="MixerBusFader" id="{286fa101-b450-463b-9abe-a60b4ed4b287}"/>
+    <object class="SFXReverbEffect" id="{199b7f90-4911-47ab-ad79-b3277278ae07}">
+        <property name="decayTime">
+            <value>1300</value>
+        </property>
+        <property name="earlyDelay">
+            <value>20.5</value>
+        </property>
+        <property name="HFReference">
+            <value>1350</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>46.5</value>
+        </property>
+        <property name="density">
+            <value>85</value>
+        </property>
+        <property name="earlyLateMix">
+            <value>41</value>
+        </property>
+        <property name="wetLevel">
+            <value>-16.5</value>
+        </property>
+        <property name="dryLevel">
+            <value>-25</value>
+        </property>
+    </object>
+</objects>

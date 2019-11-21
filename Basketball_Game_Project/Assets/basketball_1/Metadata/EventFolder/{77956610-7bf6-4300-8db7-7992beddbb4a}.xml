@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{77956610-7bf6-4300-8db7-7992beddbb4a}">
+        <property name="name">
+            <value>STAGE_5 (tartan_crowd)</value>
+        </property>
+        <relationship name="folder">
+            <destination>{abe55c6b-3e23-4845-bc51-1a44d59159fd}</destination>
+        </relationship>
+    </object>
+</objects>

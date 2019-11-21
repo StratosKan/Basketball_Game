@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{b6524cf4-6110-419f-a12b-72346ccc2124}">
+        <property name="color">
+            <value>Magenta</value>
+        </property>
+        <property name="overridingInputFormat">
+            <value>1</value>
+        </property>
+        <property name="inputFormatOverridden">
+            <value>true</value>
+        </property>
+        <property name="name">
+            <value>Stage_2_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{0516005e-252a-4429-a032-0245e6d58b72}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{e7d36d1e-cc26-42f3-9295-8d3ddf6ef498}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{0516005e-252a-4429-a032-0245e6d58b72}">
+        <relationship name="effects">
+            <destination>{f21b644d-314d-4bc4-a519-af9ddd4e1c25}</destination>
+            <destination>{b5ef9460-f196-4757-b9df-bf8182228104}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{e7d36d1e-cc26-42f3-9295-8d3ddf6ef498}"/>
+    <object class="MixerBusFader" id="{f21b644d-314d-4bc4-a519-af9ddd4e1c25}"/>
+    <object class="SFXReverbEffect" id="{b5ef9460-f196-4757-b9df-bf8182228104}">
+        <property name="decayTime">
+            <value>290</value>
+        </property>
+        <property name="wetLevel">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

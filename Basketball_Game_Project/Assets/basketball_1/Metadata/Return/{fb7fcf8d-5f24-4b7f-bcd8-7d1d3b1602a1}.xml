@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{fb7fcf8d-5f24-4b7f-bcd8-7d1d3b1602a1}">
+        <property name="color">
+            <value>Green</value>
+        </property>
+        <property name="name">
+            <value>Stage_6_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{c05cc7f6-7c9a-4a80-a1bd-9956654fb22d}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{2232becc-c23f-49f5-b515-c641cb7aa00a}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{c05cc7f6-7c9a-4a80-a1bd-9956654fb22d}">
+        <relationship name="effects">
+            <destination>{50a7c723-5117-4b92-ad4f-a29b6e749667}</destination>
+            <destination>{6e66588d-728c-42be-b12e-5706c96018f1}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{2232becc-c23f-49f5-b515-c641cb7aa00a}"/>
+    <object class="MixerBusFader" id="{50a7c723-5117-4b92-ad4f-a29b6e749667}"/>
+    <object class="SFXReverbEffect" id="{6e66588d-728c-42be-b12e-5706c96018f1}">
+        <property name="decayTime">
+            <value>20000</value>
+        </property>
+        <property name="HFReference">
+            <value>25</value>
+        </property>
+        <property name="diffusion">
+            <value>72.5</value>
+        </property>
+        <property name="density">
+            <value>83.5</value>
+        </property>
+        <property name="earlyLateMix">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerReturn" id="{c18d3b5e-dea5-4b4e-b453-6d0c1fc80bf5}">
+        <property name="color">
+            <value>Green</value>
+        </property>
+        <property name="overridingInputFormat">
+            <value>1</value>
+        </property>
+        <property name="inputFormatOverridden">
+            <value>true</value>
+        </property>
+        <property name="name">
+            <value>Stage_1_Reverb</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{2f2217f6-6ea0-4f5a-874e-35bc137206c4}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{a504da03-8254-479d-8732-6c259ac3dc87}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d98be200-ee41-44cb-ad10-f8c00939491d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{2f2217f6-6ea0-4f5a-874e-35bc137206c4}">
+        <relationship name="effects">
+            <destination>{44d6f8f3-4379-428e-b8a0-91e51c3eeef9}</destination>
+            <destination>{2770b19a-f8e5-4459-b7f0-6832d53bba30}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{a504da03-8254-479d-8732-6c259ac3dc87}"/>
+    <object class="SFXReverbEffect" id="{44d6f8f3-4379-428e-b8a0-91e51c3eeef9}">
+        <property name="decayTime">
+            <value>3400</value>
+        </property>
+        <property name="earlyDelay">
+            <value>12</value>
+        </property>
+        <property name="earlyLateMix">
+            <value>75</value>
+        </property>
+        <property name="wetLevel">
+            <value>0</value>
+        </property>
+        <property name="dryLevel">
+            <value>-30</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{2770b19a-f8e5-4459-b7f0-6832d53bba30}"/>
+</objects>
